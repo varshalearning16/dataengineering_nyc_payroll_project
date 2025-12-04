@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-udacity-nyc"
+		},
+		"AzureSynapseAnalytics_password": {
+			"value": ""
+		},
+		"ls_data_files_accountKey": {
+			"value": ""
+		},
+		"ls_sql_db_connectionString": {
+			"value": ""
+		},
+		"AzureSynapseAnalytics_properties_typeProperties_server": {
+			"value": "synapsevv-ondemand.sql.azuresynapse.net"
+		},
+		"AzureSynapseAnalytics_properties_typeProperties_database": {
+			"value": "udacity"
+		},
+		"AzureSynapseAnalytics_properties_typeProperties_userName": {
+			"value": "sqladminuser"
+		},
+		"ls_data_files_properties_typeProperties_url": {
+			"value": "https://saudacitynyc.dfs.core.windows.net/"
+		}
+	}
+}
