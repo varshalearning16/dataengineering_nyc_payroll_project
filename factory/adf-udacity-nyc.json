@@ -1,0 +1,9 @@
+{
+	"name": "adf-udacity-nyc",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "88d74300-2600-471c-8738-5c0a66d6ebbb",
+		"tenantId": "f958e84a-92b8-439f-a62d-4f45996b6d07"
+	}
+}
